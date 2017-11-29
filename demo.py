@@ -1,8 +1,8 @@
 # -*- coding：utf-8 -*-
 '''
-时间：2017-1125
+时间：2017-11-25
 作者：小丸子
-作用：第一天的演示文件
+标题：第一天的演示文件
 '''
 '''
 print ("hello world!")
@@ -38,10 +38,10 @@ for i in range(4):
         print("|-----欢迎登陆xx系统----|")
         print("|                      |")
         print("------------------------")
-        username =input("请输入账号：")
-        if username=="TomBigOld":
-            password=input("请输入密码：")
-            if password=="123456":
+        username = input("请输入账号：")
+        if username == "TomBigOld":
+            password = input("请输入密码：")
+            if password == "123456":
                 print("登陆成功！！")
                 print("欢迎你, %s" % username)
                 break
@@ -52,7 +52,6 @@ for i in range(4):
     else:
         print("错误次数太多，等待五分钟！")
         exit()
-user = {"name": username,"age":"23岁","high":"170cm","job":"测试工程师","sex":"女"}
+user = {"name": username, "age": "23岁", "high": "170cm", "job": "测试工程师", "sex": "女"}
 for key in user:
-    print(key,":\t",user[key])
-           
+    print(key, ":\t", user[key])       
